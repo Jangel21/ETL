@@ -1,0 +1,150 @@
+RegionName,BuildingName,Address1,City,State,ZIP,RoomName,RoomComments,Contact,Telephone,Capacity,SeatingStyleName,VideoConferencing,ProjectionScreen,SpeakerSystem,Projector,TeleDataOutlet,WhiteBoard,VCRorDVD,TenantUse,StateAgencyUse,PublicUse
+Capitol Historic Region,900 N Street,900 N Street,Sacramento,CA,95814,501,NULL,Jack Nolan ,916-654-0033,50,Classroom,N,Y,N,N,Y,Y,N,N,N,N
+Capitol Historic Region,914 Capitol Mall,914 Capitol Mall,Sacramento,CA,95814,500,NULL,Jack Nolan ,916-654-0033,101,Classroom,N,Y,N,N,Y,N,Y,Y,N,N
+Capitol Historic Region,915 Capitol Mall,915 Capitol Mall,Sacramento,CA,95814,587,NULL,Luis Hermosillo ,916-653-3382,97,Classroom,N,Y,N,N,Y,N,N,Y,N,N
+Region II,31 E. Channel St.,31 E. Channel St.,Stockton,CA,95202,A-10,NULL,Building Manager ,209-948-7730,15,Tables and Chairs,N,Y,Y,N,N,N,N,Y,Y,N
+Region II,31 E. Channel St.,31 E. Channel St.,Stockton,CA,95202,Auditorium,NULL,Building Manager ,209-948-7730,148,Auditorium,N,Y,Y,N,N,N,N,Y,Y,N
+Region II,744 P Street (OB-9),744 P Street (OB-9),Sacramento,CA,95814,102,NULL,Steve Mar ,916-654-3693,150,Auditorium,N,Y,Y,Y,Y,N,N,N,N,N
+Region II,744 P Street (OB-9),744 P Street (OB-9),Sacramento,CA,95814,1054,NULL,Steve Mar ,916-654-3693,50,Tables and Chairs,N,N,N,N,Y,N,N,Y,N,N
+Region II,744 P Street (OB-9),744 P Street (OB-9),Sacramento,CA,95814,1125,NULL,Steve Mar ,916-654-3693,25,Tables and Chairs,N,N,N,N,Y,N,N,Y,N,N
+Region II,744 P Street (OB-9),744 P Street (OB-9),Sacramento,CA,95814,1441,NULL,Steve Mar ,916-654-3693,8,Tables and Chairs,N,N,N,N,Y,N,N,Y,N,N
+Region II,744 P Street (OB-9),744 P Street (OB-9),Sacramento,CA,95814,1608,NULL,Steve Mar ,916-654-3693,15,Tables and Chairs,N,N,N,N,Y,N,N,Y,N,N
+Region II,744 P Street (OB-9),744 P Street (OB-9),Sacramento,CA,95814,217,NULL,Steve Mar ,916-654-3693,32,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,744 P Street (OB-9),744 P Street (OB-9),Sacramento,CA,95814,441,NULL,Steve Mar ,916-654-3693,19,Tables and Chairs,N,N,N,N,Y,N,N,Y,N,N
+Region II,744 P Street (OB-9),744 P Street (OB-9),Sacramento,CA,95814,570,NULL,Steve Mar ,916-654-3693,12,Tables and Chairs,N,N,N,N,Y,N,N,Y,N,N
+Region II,744 P Street (OB-9),744 P Street (OB-9),Sacramento,CA,95814,784,NULL,Steve Mar ,916-654-3693,30,Tables and Chairs,N,Y,N,N,Y,N,N,Y,N,N
+Region II,744 P Street (OB-9),744 P Street (OB-9),Sacramento,CA,95814,941,NULL,Steve Mar ,916-654-3693,29,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,Bateson Building,1600 9th St.,Sacramento,CA,95814,Large,NULL,Cindy Ann Duran ,916-654-3693,30,Tables and Chairs,N,N,N,N,N,N,N,Y,Y,N
+Region II,Bateson Building,1600 9th St.,Sacramento,CA,95814,Small,NULL,Cindy Ann Duran ,916-654-3693,10,Tables and Chairs,N,N,N,N,N,N,N,Y,Y,N
+Region II,Bonderson Building,901 P St.,Sacramento,CA,95814,102B,NULL,Cindy Ann Duran ,916-654-3693,50,Tables and Chairs,N,Y,N,N,N,N,N,Y,Y,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,2nd Floor - Main Conf.,NULL,Kim DuVall ,916-654-5204,30,Tables and Chairs,N,Y,N,Y,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,2nd Floor - North A,NULL,Debbie Jones ,916-654-4631,6,Tables and Chairs,N,N,N,N,Y,Y,Y,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,2nd Floor - North B,NULL,Debbie Jones ,916-654-4631,6,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,2nd Floor - North C,NULL,Debbie Jones ,916-654-4631,15,Tables and Chairs,N,Y,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,2nd Floor - South A,NULL,Reta Ortiz ,916-654-4878,8,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,2nd Floor - South B,NULL,Reta Ortiz ,916-654-4878,15,Tables and Chairs,N,Y,N,N,Y,N,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,2nd Floor - South C,NULL,Reta Ortiz ,916-654-4878,10,Tables and Chairs,N,Y,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,2nd Floor - South D,NULL,Reta Ortiz ,916-654-4878,5,Tables and Chairs,N,N,N,N,Y,N,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,2nd Floor - South E,NULL,Reta Ortiz ,916-654-4878,10,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,3rd Floor - Maini Conf.,NULL,Kim DuVall ,916-654-5204,25,Tables and Chairs,N,Y,N,Y,Y,Y,Y,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,3rd Floor - North A,NULL,Debbie Friese ,916-654-5013,10,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,3rd Floor - North B,NULL,Debbie Friese ,916-654-5013,10,Tables and Chairs,N,Y,N,N,Y,Y,Y,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,3rd Floor - North C,NULL,Debbie Friese ,916-654-5013,6,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,3rd Floor - North D,NULL,Debbie Friese ,916-654-5013,10,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,3rd Floor - North E,NULL,Debbie Friese ,916-654-5013,10,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,4th Floor - North A,NULL,Lupe ZinZun ,916-445-1937,25,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,4th Floor - South A,NULL,Barbara Crume ,916-654-4791,12,Tables and Chairs,N,N,N,N,Y,N,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,Administration,NULL,Kim DuVall ,916-654-5204,9,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,Electricity Analysis,NULL,Barbara Crume ,916-654-4791,8,Tables and Chairs,N,N,N,N,Y,N,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,Environmental,NULL,Nita McGlothin ,916-654-5081,10,Tables and Chairs,N,N,N,N,Y,N,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,Exams #1 Conf. Room,NULL,Exams  ,916-654-4296,10,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,Hearing Room A,NULL,Maggie Read ,916-654-3893,45,Tables and Chairs,Y,Y,N,Y,Y,Y,Y,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,Hearing Room A,NULL,Maggie Read ,916-654-3893,120,Tables and Chairs,Y,Y,Y,Y,Y,Y,Y,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,Hearing Room A,NULL,Hearing Off. ,916-654-3893,138,Tables and Chairs,N,Y,Y,Y,Y,N,Y,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,Hearing Room B,NULL,Hearing Off. ,916-654-3893,50,Tables and Chairs,N,Y,N,Y,Y,Y,N,Y,N,N
+Region II,Energy Commission,1516 9th Street,Sacramento,CA,95814,Legal Office Conf. Room,NULL,Legal  ,916-654-3951,8,Tables and Chairs,N,N,N,N,Y,N,N,Y,N,N
+Region II,Red Bluff State Office Building,2440 Main Street,Red Bluff,CA,96080,66,NULL,Rosemary Hernandez ,530-225-2175,25,Tables and Chairs,Y,Y,N,Y,Y,Y,Y,Y,N,N
+Region II,Redding State Office Building,2135 Civic Center Drive,Redding,CA,96001,16,NULL,John Molitoris ,530-225-2175,12,Tables and Chairs,N,N,N,N,N,Y,Y,Y,Y,N
+Region II,Secretary of State,1500 11th St.,Sacramento,CA,95814,Auditorium,NULL,MSD Bus. Ser.  Larry Honeycutt ,916-653-0653,210,Auditorium,N,Y,Y,Y,Y,N,Y,N,Y,N
+Region II,Secretary of State,1500 11th St.,Sacramento,CA,95814,Multi-Purpose Room,NULL,MSD Bus. Ser.  Larry Honeycutt ,916-653-0653,75,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,N,Y,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1E-A-115B,NULL,NULL,NULL,14,Modular Systems Furniture,N,Y,Y,Y,Y,Y,Y,Y,N,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1E-A-11A,NULL,NULL,NULL,14,Modular Systems Furniture,N,Y,Y,Y,Y,Y,Y,Y,N,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1E-A-130,NULL,NULL,NULL,24,Tables and Chairs,Y,Y,Y,Y,Y,Y,Y,Y,N,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1E-A-140,NULL,NULL,NULL,11,Tables and Chairs,N,Y,N,Y,Y,Y,Y,Y,N,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1E-A-165,NULL,NULL,NULL,50,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,N,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1E-A-175,NULL,NULL,NULL,35,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,N,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1E-A-180,NULL,NULL,NULL,30,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,N,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1E-A-200A,NULL,NULL,NULL,85,Tables and Chairs,N,Y,Y,N,Y,Y,Y,Y,N,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1E-A-200B,NULL,NULL,NULL,85,Tables and Chairs,N,Y,Y,N,Y,Y,Y,Y,N,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1W-A-110,NULL,NULL,NULL,26,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,N,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1W-A-140,NULL,NULL,NULL,275,Auditorium,Y,Y,Y,Y,Y,N,Y,Y,N,N
+Region III,9645 Butterfield Way,9645 Butterfield Way,Sacramento,CA,95827,CA1W-A105,NULL,NULL,NULL,14,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,1042 Conference Room ,NULL,Tiffany Bontemps ,916-322-4146,20,Tables and Chairs,N,N,Y,Y,N,Y,N,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,1240 Conference Room ,NULL,Tiffany Bontemps ,916-322-4146,20,Tables and Chairs,N,N,N,Y,N,Y,N,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,1441 Conference Room ,NULL,Tiffany Bontemps ,916-322-4146,20,Tables and Chairs,N,N,Y,N,N,Y,N,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,1524 Conference Room,NULL,Tiffany Bontemps ,916-322-4146,20,Tables and Chairs,N,N,Y,N,N,Y,N,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,1531 Conference Room ,NULL,Tiffany Bontemps ,916-322-4146,20,Tables and Chairs,N,N,Y,N,N,Y,N,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,1624 Conference Room ,NULL,Tiffany Bontemps ,916-322-4146,30,Tables and Chairs,N,N,Y,N,N,Y,N,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,1631 Conference Room,NULL,Tiffany Bontemps ,916-322-4146,25,Tables and Chairs,N,N,Y,N,N,Y,N,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,1762 Conference Room,NULL,Tiffany Bontemps ,916-322-4146,10,Tables and Chairs,N,N,Y,N,N,Y,N,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,1770-4Conference Room,NULL,Tiffany Bontemps ,916-322-4146,25,Tables and Chairs,N,N,Y,N,N,Y,N,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,730 Conference Room ,NULL,Tiffany Bontemps ,916-322-4146,20,Tables and Chairs,N,Y,Y,Y,Y,Y,N,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,834- Press Room ,NULL,Lupe ZinZun ,916-445-1937,20,Tables and Chairs,Y,Y,Y,N,Y,Y,Y,Y,N,N
+Region IV,1300 I Street,1300 I Street,Sacramento,CA,95814,940-2 Conference Room ,NULL,Tiffany Bontemps ,916-322-4146,26,Tables and Chairs,N,N,N,N,N,Y,N,Y,N,N
+Region IV,1500 Capitol Avenue,1500 Capitol Avenue,Sacramento,CA,95814,72.147 (Common),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,10,Tables and Chairs,N,N,N,N,Y,Y,N,Y,Y,N
+Region IV,1500 Capitol Avenue,1500 Capitol Avenue,Sacramento,CA,95814,72.146 (Common),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,12,Tables and Chairs,N,N,N,N,Y,Y,N,Y,Y,N
+Region IV,1500 Capitol Avenue,1500 Capitol Avenue,Sacramento,CA,95814,72.154 (Common),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,20,Tables and Chairs,N,Y,Y,N,Y,Y,N,Y,Y,N
+Region IV,1500 Capitol Avenue,1500 Capitol Avenue,Sacramento,CA,95814,72.155 (Common),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,20,Tables and Chairs,N,Y,Y,N,Y,Y,N,Y,Y,N
+Region IV,1500 Capitol Avenue,1500 Capitol Avenue,Sacramento,CA,95814,72.151 (Training A),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,49,Tables and Chairs,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
+Region IV,1500 Capitol Avenue,1500 Capitol Avenue,Sacramento,CA,95814,72.149 (Training B),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,49,Tables and Chairs,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
+Region IV,1500 Capitol Avenue,1500 Capitol Avenue,Sacramento,CA,95814,72.148 (Training C),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,49,Tables and Chairs,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
+Region IV,1500 Capitol Avenue,1500 Capitol Avenue,Sacramento,CA,95814,72.165 (Video Conf),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,25,Tables and Chairs,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
+Region IV,1500 Capitol Avenue,1500 Capitol Avenue,Sacramento,CA,95814,72.170 (Video Conf),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,25,Tables and Chairs,Y,Y,Y,Y,Y,Y,Y,Y,Y,N
+Region IV,1500 Capitol Avenue,1500 Capitol Avenue,Sacramento,CA,95814,72.167 (Hearing Room),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,40,Tables and Chairs,Y,Y,Y,Y,Y,N,Y,Y,Y,N
+Region IV,1500 Capitol Avenue,1500 Capitol Avenue,Sacramento,CA,95814,Auditorium,NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,299,Auditorium,Y,Y,Y,Y,Y,N,Y,Y,Y,N
+Region IV,1616 Capitol Avenue,1616 Capitol Avenue,Sacramento,CA,95814,74.154 (Common),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,15,Tables and Chairs,N,Y,Y,N,Y,Y,N,Y,Y,N
+Region IV,1616 Capitol Avenue,1616 Capitol Avenue,Sacramento,CA,95814,74.155 (Common),NULL,Reservation Coordinator (EECResourceRequests@dgs.ca.gov),916-445-3481,20,Tables and Chairs,N,Y,Y,N,Y,Y,N,Y,Y,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,105 (Common),NULL,Reception  ,916-445-6464,8,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,106 (Common),NULL,Reception  ,916-445-6464,8,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,107 (Common),NULL,Reception  ,916-445-6464,8,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,108 (Common),NULL,Reception  ,916-445-6464,8,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,110 (Common),NULL,Reception  ,916-445-6464,12,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,111 (Common),NULL,Reception  ,916-445-6464,12,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,112 (Common),NULL,Reception  ,916-445-6464,6,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,114 (Common),NULL,Reception  ,916-445-6464,4,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,117 (Common),NULL,Reception  ,916-445-6464,12,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,118 (Common),NULL,Reception  ,916-445-6464,12,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,122 (Common),NULL,Claudia  ,916-324-8261,25,Tables and Chairs,N,N,N,N,Y,Y,N,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,2317 (Executive),NULL,Claudia  ,916-324-8261,36,Tables and Chairs,Y,Y,Y,N,Y,Y,Y,Y,N,N
+Region IV,450 N Street,450 N Street,Sacramento,CA,95814,Auditorium,NULL,Claudia  ,916-324-8261,100,Auditorium,N,Y,Y,N,Y,N,Y,Y,N,N
+Region IV,Ziggurat,707 Third St.,West Sacramento,CA,95605,Auditorium,NULL,BSS  ,916-375-4990,195,Auditorium,Y,Y,Y,Y,Y,N,Y,N,Y,N
+Region IV,Ziggurat,707 Third St.,West Sacramento,CA,95605,Executive Dining Room,NULL,BSS  ,916-375-4990,45,Tables and Chairs,N,N,N,N,Y,N,Y,N,Y,N
+SF Bay Region,100 Paseo de San Antonio,100 Paseo de San Antonio,San Jose,CA,95113,Auditorium,NULL,Casey Valdez ,408-277-1761,76,Auditorium,N,Y,Y,Y,N,N,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,Auditorium,NULL,Dave Glass ,415-865-7848,225,Auditorium,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,Benicia Rm A,NULL,Dave Glass ,415-865-7848,14,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,Benicia Rm A/B/C,NULL,Dave Glass ,415-865-7848,30,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,Benicia Rm B,NULL,Dave Glass ,415-865-7848,14,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,Benicia Rm C,NULL,Dave Glass ,415-865-7848,14,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,Monterey Rm,NULL,Dave Glass ,415-865-7848,16,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,San Diego Rm A,NULL,Dave Glass ,415-865-7848,22,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,San Diego Rm A/B/C,NULL,Dave Glass ,415-865-7848,60,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,San Diego Rm B,NULL,Dave Glass ,415-865-7848,22,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,San Diego Rm C,NULL,Dave Glass ,415-865-7848,22,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,San Jose Rm,NULL,Dave Glass ,415-865-7848,20,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,Santa Barbara Rm,NULL,Dave Glass ,415-865-7848,28,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,455 Golden Gate Ave,455 Golden Gate Ave,San Francisco,CA,94102,Vallejo Rm,NULL,Dave Glass ,415-865-7848,20,Tables and Chairs,N,Y,Y,Y,Y,Y,Y,Y,Y,N
+SF Bay Region,50 D St.,50 D St.,Santa Rosa,CA,95404,405,NULL,Pat Commins ,707-576-2424,40,Tables and Chairs,N,N,N,N,N,N,Y,Y,Y,N
+SF Bay Region,50 D St.,50 D St.,Santa Rosa,CA,95404,410A/410B,NULL,Pat Commins ,707-576-2424,80,Tables and Chairs,N,Y,Y,N,N,Y,Y,Y,Y,N
+SF Bay Region,Elihu M Harris,1515 Clay St.,Oakland,CA,94612,Auditorium,NULL,Towana Thomas ,510-622-2564,250,Auditorium,N,Y,Y,Y,N,N,Y,Y,Y,N
+SF Bay Region,Elihu M Harris,1515 Clay St.,Oakland,CA,94612,Room 1,NULL,Towana Thomas ,510-622-2564,140,Tables and Chairs,N,Y,Y,Y,N,Y,Y,Y,Y,N
+SF Bay Region,Elihu M Harris,1515 Clay St.,Oakland,CA,94612,Room 10,NULL,Towana Thomas ,510-622-2564,40,Tables and Chairs,N,Y,Y,Y,N,Y,Y,Y,Y,N
+SF Bay Region,Elihu M Harris,1515 Clay St.,Oakland,CA,94612,Room 11,NULL,Towana Thomas ,510-622-2564,50,Tables and Chairs,N,Y,Y,Y,N,Y,Y,Y,Y,N
+SF Bay Region,Elihu M Harris,1515 Clay St.,Oakland,CA,94612,Room 12,NULL,Towana Thomas ,510-622-2564,35,Tables and Chairs,N,Y,Y,Y,N,Y,Y,Y,Y,N
+SF Bay Region,Elihu M Harris,1515 Clay St.,Oakland,CA,94612,Room 14,NULL,Towana Thomas ,510-622-2564,10,Tables and Chairs,N,N,N,N,N,N,Y,Y,Y,N
+SF Bay Region,Elihu M Harris,1515 Clay St.,Oakland,CA,94612,Room 15,NULL,Towana Thomas ,510-622-2564,35,Tables and Chairs,N,Y,Y,Y,N,Y,Y,Y,Y,N
+SF Bay Region,Elihu M Harris,1515 Clay St.,Oakland,CA,94612,"Room 2, 3 & 4",NULL,Towana Thomas ,510-622-2564,90,Tables and Chairs,N,Y,Y,Y,N,Y,Y,Y,Y,N
+SF Bay Region,Elihu M Harris,1515 Clay St.,Oakland,CA,94612,Room 7,NULL,Towana Thomas ,510-622-2564,50,Hearing Room,N,Y,Y,Y,N,N,Y,Y,Y,N
+SF Bay Region,Elihu M Harris,1515 Clay St.,Oakland,CA,94612,Room 8,NULL,Towana Thomas ,510-622-2564,12,Hearing Room,N,N,N,N,N,N,Y,Y,Y,N
+SF Bay Region,Elihu M Harris,1515 Clay St.,Oakland,CA,94612,Room 9,NULL,Towana Thomas ,510-622-2564,30,Tables and Chairs,N,Y,Y,Y,N,Y,Y,Y,Y,N
+Southern Region,1350 Front Street,1350 Front Street,San Diego,CA,92101,B-102,NULL,Front Street BSO ,619-525-4487,15,Tables and Chairs,N,N,N,N,N,N,N,Y,Y,N
+Southern Region,1350 Front Street,1350 Front Street,San Diego,CA,92101,B-103,NULL,Front Street BSO ,619-525-4487,10,Tables and Chairs,N,N,N,N,N,N,N,Y,Y,N
+Southern Region,1350 Front Street,1350 Front Street,San Diego,CA,92101,B-107,NULL,Front Street BSO ,619-525-4487,20,Tables and Chairs,N,N,N,N,N,N,N,Y,Y,N
+Southern Region,1350 Front Street,1350 Front Street,San Diego,CA,92101,B-109,NULL,Front Street BSO ,619-525-4487,160,Auditorium,N,N,N,N,N,N,N,Y,Y,N
+Southern Region,2550 Mariposa Mall,2550 Mariposa Mall,Fresno,CA,93721,1002,NULL,Anne Clancy ,559-445-5084,20,Tables and Chairs,N,N,N,N,Y,N,N,Y,Y,N
+Southern Region,2550 Mariposa Mall,2550 Mariposa Mall,Fresno,CA,93721,1027,NULL,Anne Clancy ,559-445-5084,18,Tables and Chairs,N,N,N,N,Y,Y,N,Y,Y,N
+Southern Region,2550 Mariposa Mall,2550 Mariposa Mall,Fresno,CA,93721,1036,NULL,Anne Clancy ,559-445-5084,110,Tables and Chairs,N,Y,Y,N,N,Y,N,Y,Y,N
+Southern Region,2550 Mariposa Mall,2550 Mariposa Mall,Fresno,CA,93721,1038,NULL,Anne Clancy ,559-445-5084,12,Tables and Chairs,N,N,N,N,Y,Y,N,Y,Y,N
+Southern Region,3374 E. Shields,3374 E. Shields,Fresno,CA,93726,10,NULL,Daisy Garcia ,559-445-5084,40,Tables and Chairs,N,N,N,Y,Y,N,Y,Y,N,N
+Southern Region,4050 Taylor Street,4050 Taylor Street,San Diego,CA,92110,1-125A,NULL,Training  ,619-688-6611,62,Tables and Chairs,N,Y,N,N,N,N,N,Y,N,N
+Southern Region,4050 Taylor Street,4050 Taylor Street,San Diego,CA,92110,1-125B,NULL,Training  ,619-688-6611,62,Tables and Chairs,N,Y,N,N,N,N,N,Y,N,N
+Southern Region,7575 Metropolitan Drive # 101,7575 Metropolitan Drive # 101,San Diego,CA,92108,101,NULL,Eula Wilburn ,619-688-0200,20,Tables and Chairs,N,Y,N,Y,Y,Y,Y,Y,N,N
+Southern Region,7575 Metropolitan Drive # 101,7575 Metropolitan Drive # 101,San Diego,CA,92108,340,NULL,Eula Wilburn ,619-688-0200,30,Tables and Chairs,N,Y,N,Y,Y,N,Y,Y,N,N
+Southern Region,California Tower,3737 Main Street,Riverside,CA,92501,204 Magnolia,NULL,Janine Franco ,951-715-0130,50,Tables and Chairs,N,Y,Y,N,N,Y,Y,Y,Y,N
+Southern Region,California Tower,3737 Main Street,Riverside,CA,92501,205 Victoria,NULL,Janine Franco ,951-715-0130,50,Tables and Chairs,N,Y,Y,N,N,Y,Y,Y,Y,N
+Southern Region,California Tower,3737 Main Street,Riverside,CA,92501,206 Arlington,NULL,Janine Franco ,951-715-0130,50,Tables and Chairs,N,Y,Y,N,N,Y,Y,Y,Y,N
+Southern Region,California Tower,3737 Main Street,Riverside,CA,92501,207 Alvarado,NULL,Janine Franco ,951-715-0130,50,Tables and Chairs,N,Y,Y,N,N,Y,Y,Y,Y,N
+Southern Region,California Tower,3737 Main Street,Riverside,CA,92501,210 Rubidoux,NULL,Janine Franco ,951-715-0130,50,Tables and Chairs,N,Y,Y,N,N,Y,Y,Y,Y,N
+Southern Region,Santa Ana State Office Building,605 W. Santa Ana Boulevard,Santa Ana,CA,92701,142,NULL,Kathy  Dungan ,714-558-4657,25,Tables and Chairs,N,N,N,N,N,N,N,N,N,N
+Southern Region,Santa Ana State Office Building,605 W. Santa Ana Boulevard,Santa Ana,CA,92701,540,NULL,Arturo  ,714-558-4406,15,Tables and Chairs,N,N,N,N,N,N,Y,N,N,N
+Southern Region,Santa Ana State Office Building,605 W. Santa Ana Boulevard,Santa Ana,CA,92701,850,NULL,Operator  ,714-558-4434,50,Tables and Chairs,N,N,N,N,N,Y,N,N,N,N
+Southern Region,Van Nuys State Office Building,6150 Van Nuys Blvd.,Van Nuys,CA,91401,Auditorium,NULL,Maria Hernandez ,818-901-5425,117,Tables and Chairs,N,Y,Y,N,N,N,Y,N,Y,N
