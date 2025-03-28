@@ -1,7 +1,7 @@
 from colorama import init, Fore  #pip install colorama
 import pandas as pd #pip install pandas
 import os 
-from ETL import sustituir_valores,convertir_tipo_dato, convertir_fechas
+from ETL import sustituir_valores,convertir_tipo_dato, convertir_fechas, total_personas
 
 
 # pip install openpyxl para poder abrir archivo xlsx
@@ -69,7 +69,7 @@ def limpieza_transformacion(df):
         print(f"{Fore.GREEN}4) Convertir fechas")
         print(f"{Fore.GREEN}5) Función 5")
         print(f"{Fore.GREEN}6) Función 6")
-        print(f"{Fore.GREEN}7) Función 7")
+        print(f"{Fore.GREEN}7) Calcular total de personas")
         print(f"{Fore.GREEN}8) Función 8")
         print(f"{Fore.GREEN}9) Función 9")
         print(f"{Fore.GREEN}10) Función 10")
@@ -126,7 +126,8 @@ def limpieza_transformacion(df):
             print("Función 6")
 
         elif opcion == "7":
-            print("Función 7")
+            df = total_personas(df)  # Llamar a la función
+            print(f"{Fore.GREEN}\nTERMINADO :) \n")
 
         elif opcion == "8":
             print("Función 8")

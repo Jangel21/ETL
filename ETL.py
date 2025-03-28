@@ -64,13 +64,17 @@ def comparar_reservacion():
      print("TODO")
 
 # 7) Crear una nueva columna basada en operaciones con otras columnas
-def total_personas(dataframe, column_name, columns,lambda_expresion):
-    
-    #Se suman todas las personas que estuvieron en la habitacion, si es nulo se convierte 0
-    dataframe["total_people"] = dataframe["adults"].fillna(0) + dataframe["children"].fillna(0) + dataframe["babies"].fillna(0)
+def total_personas(df):
+    try:
+        # Se suman todas las personas que estuvieron en la habitación, si es nulo se convierte en 0
+        df["total_people"] = df["adults"].fillna(0) + df["children"].fillna(0) + df["babies"].fillna(0)
+        print("\nSe ha agregado la columna 'total_people' correctamente.\n")
+
+    except Exception as e:
+        print("\nError al calcular total de personas: {e}\n")
 
     #Se regresa el nuevo dataframe con la nueva columna  
-    return dataframe
+    return df
      
 
 # 8) Ajustar valores atípicos dentro de un rango permitido
