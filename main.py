@@ -1,7 +1,7 @@
 from colorama import init, Fore  #pip install colorama
 import pandas as pd #pip install pandas
 import os 
-from ETL import sustituir_valores
+from ETL import sustituir_valores, convertir_fechas
 
 
 # pip install openpyxl para poder abrir archivo xlsx
@@ -66,7 +66,7 @@ def limpieza_transformacion(df):
         print(f"{Fore.GREEN}1) Función 1")
         print(f"{Fore.GREEN}2) Remplazar valores erróneos")
         print(f"{Fore.GREEN}3) Función 3")
-        print(f"{Fore.GREEN}4) Función 4")
+        print(f"{Fore.GREEN}4) Convertir fechas")
         print(f"{Fore.GREEN}5) Función 5")
         print(f"{Fore.GREEN}6) Función 6")
         print(f"{Fore.GREEN}7) Función 7")
@@ -92,7 +92,9 @@ def limpieza_transformacion(df):
             print("Función 3")
 
         elif opcion == "4":
-            print("Función 4")
+            columna = input(f"{Fore.YELLOW}Ingrese el nombre de la columna con fechas: ") #Se ingresa el nombre de la columna a modificar
+            df = convertir_fechas(df, columna)  # Se llama la función
+            print(f"{Fore.GREEN}\nFechas modificadas correctamente :) \n")
 
         elif opcion == "5":
             print("Función 5")
