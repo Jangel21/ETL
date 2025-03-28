@@ -6,7 +6,6 @@ import ETL
 
 # pip install openpyxl para poder abrir archivo xlsx
 
-
 init(autoreset=True) # Inicializar colorama 
 
 def mostrar_menu(): # Opciones básicas del menú
