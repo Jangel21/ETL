@@ -4,15 +4,16 @@ import pandas as pd
 def eliminar_filas():
      print("TODO")
 
-# 2) Sustituir valores erróneos o inconsistentes en columnas categóricas (no funciona correctamente)
+# 2) Sustituir valores erróneos o inconsistentes en columnas categóricas (replace solo funciona para cadenas de texto)
 def sustituir_valores(df, columna, valores_erroneos, valor_nuevo):
-    # Nos asegurarnos de que la columna existe
-    if columna not in df.columns:
-        raise ValueError(f"La columna '{columna}' no se encuentra")
-    
     try:
-        df[columna] = df[columna].replace(valores_erroneos, valor_nuevo) 
-        
+        # Nos asegurarnos de que la columna existe
+        if columna not in df.columns:
+            raise ValueError(f"La columna '{columna}' no se encuentra")
+    
+        # Reemplazar los valores erróneos
+        df[columna] = df[columna].replace(valores_erroneos, valor_nuevo)
+
     except Exception as e: 
          print(f"Error al sustituir valores: {e}")
     return df 

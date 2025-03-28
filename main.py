@@ -94,7 +94,7 @@ def limpieza_transformacion(df):
         elif opcion == "4":
             columna = input(f"{Fore.YELLOW}Ingrese el nombre de la columna con fechas: ") #Se ingresa el nombre de la columna a modificar
             df = convertir_fechas(df, columna)  # Se llama la función
-            print(f"{Fore.GREEN}\nFechas modificadas correctamente :) \n")
+            print(f"{Fore.GREEN}\nTERMINADO :) \n")
 
         elif opcion == "5":
             print("Función 5")
