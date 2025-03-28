@@ -1,10 +1,15 @@
+import pandas as pd
+
 # 1) Funcion para Eliminar filas con valores nulos en ciertas columnas
 def eliminar_filas():
      print("TODO")
 
 # 2) Sustituir valores erróneos o inconsistentes en columnas categóricas
-def sustituir_valores():
-     print("TODO")
+def sustituir_valores(df, columna, valores_erroneos, valor_nuevo):
+    df[columna] = df[columna].replace(valores_erroneos, valor_nuevo)  
+    return df 
+    
+
 
 # 3) Convertir tipos de datos
 def convertir_datos():
