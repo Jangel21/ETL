@@ -19,8 +19,17 @@ def sustituir_valores(df, columna, valores_erroneos, valor_nuevo):
     return df 
     
 # 3) Convertir tipos de datos
-def convertir_datos():
-     print("TODO")
+def convertir_tipo_dato(df, columna, nuevo_tipo):
+    try:
+        # Nos asegurarnos de que la columna existe
+        if columna not in df.columns:
+            raise ValueError(f"La columna '{columna}' no se encuentra")
+        
+        # Convertir la columna al tipo especificado
+        df[columna] = df[columna].astype(nuevo_tipo)
+    except Exception as e:
+        print(f"Error al convertir el tipo de datos: {e}")
+    return df
 
 # 4) Convertir formatos de fecha a un estandar
 def convertir_fechas(df, columna, formato="%Y-%m-%d"):
@@ -47,7 +56,7 @@ def convertir_fechas(df, columna, formato="%Y-%m-%d"):
 
 
 # 5) Extraer el día de la semana de una fecha
-def obtener_dia():
+def obtener_dia_semana():
      print("TODO")
 
 # 6) Comparar la fecha de reservación con fechas precias para detectar patrones.

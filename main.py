@@ -1,7 +1,7 @@
 from colorama import init, Fore  #pip install colorama
 import pandas as pd #pip install pandas
 import os 
-from ETL import sustituir_valores, convertir_fechas
+from ETL import sustituir_valores,convertir_tipo_dato, convertir_fechas
 
 
 # pip install openpyxl para poder abrir archivo xlsx
@@ -65,7 +65,7 @@ def limpieza_transformacion(df):
         print(f"{Fore.LIGHTBLUE_EX}\nQue desea hacer?\n")  # Lo de "Función X" se va a modificar 
         print(f"{Fore.GREEN}1) Función 1")
         print(f"{Fore.GREEN}2) Remplazar valores erróneos")
-        print(f"{Fore.GREEN}3) Función 3")
+        print(f"{Fore.GREEN}3) Cambiar tipo de dato de columna")
         print(f"{Fore.GREEN}4) Convertir fechas")
         print(f"{Fore.GREEN}5) Función 5")
         print(f"{Fore.GREEN}6) Función 6")
@@ -82,17 +82,40 @@ def limpieza_transformacion(df):
             print("Función 1")  # Lo de "Función X" se va a modificar 
 
         elif opcion == "2":
-            columna = input(f"{Fore.YELLOW}Ingrese la columna: ") #Seleccionar columna a modificar
+            columna = input(f"{Fore.YELLOW}Ingrese la columna: ") # Seleccionar columna a modificar
             valores_erroneos = input(f"{Fore.YELLOW}Ingrese los valores erróneos, separados por coma: ").split(",") #Ingresar valores que son incorrectos
-            valor_nuevo = input(f"{Fore.YELLOW}Ingrese el valor para sustituir: ") #Ingresar el nuevo valor
+            valor_nuevo = input(f"{Fore.YELLOW}Ingrese el valor para sustituir: ") # Ingresar el nuevo valor
             df = sustituir_valores(df, columna, valores_erroneos, valor_nuevo)  # Se sustituyen los valores
             print(f"{Fore.GREEN}\nTERMINADO :)")
 
         elif opcion == "3":
-            print("Función 3")
+            columna = input(f"{Fore.YELLOW}Ingrese el nombre de la columna a convertir (int, float o str): ")  # Seleccionar columna a modificar
+            print(f"{Fore.YELLOW}\n¿A qué tipo de dato desea convertir?")
+            print(f"{Fore.GREEN}1) Entero (int)")
+            print(f"{Fore.GREEN}2) Decimal (float)")
+            print(f"{Fore.GREEN}3) Texto (str)")
+            tipo_dato = input("\nSeleccione una opción: ")
+
+            # Determina el tipo de dato deseado
+            if tipo_dato == "1":
+                nuevo_tipo = int
+            elif tipo_dato == "2":
+                nuevo_tipo = float
+            elif tipo_dato == "3":
+                nuevo_tipo = str
+            else:
+                print(f"{Fore.RED}\nOpción inválida. Intente de nuevo :(\n")
+                continue
+
+            # Convertimos el tipo de dato
+            try:
+                df = convertir_tipo_dato(df, columna, nuevo_tipo)  # Llamar a la función
+                print(f"{Fore.GREEN}\nTERMINADO :)")
+            except Exception as e:
+                print(f"{Fore.RED}\nError: {e}")
 
         elif opcion == "4":
-            columna = input(f"{Fore.YELLOW}Ingrese el nombre de la columna con fechas: ") #Se ingresa el nombre de la columna a modificar
+            columna = input(f"{Fore.YELLOW}Ingrese el nombre de la columna con fechas: ") # Se ingresa el nombre de la columna a modificar
             df = convertir_fechas(df, columna)  # Se llama la función
             print(f"{Fore.GREEN}\nTERMINADO :) \n")
 
