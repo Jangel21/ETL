@@ -76,17 +76,17 @@ def total_personas(df):
     #Se regresa el nuevo dataframe con la nueva columna  
     return df
      
-
 # 8) Ajustar valores atípicos dentro de un rango permitido
 def ajustar_valores(dataframe, column, min_value, max_value):
-     
-     #Con una expresion lambda compara que cada valor se encuentre dentro del rango deseado
-     dataframe[column] = dataframe[column].apply(
-        lambda x: max(min(x, min_value), max_value)
-    )
-     
+    try:
+        #Con una expresion lambda compara que cada valor se encuentre dentro del rango deseado
+        dataframe[column] = dataframe[column].apply(
+            lambda x: min(max(x, min_value), max_value)
+        )
+    except Exception as e:
+        print("\nError al ajustar valores: {e}\n")
      #Se retorna el dataframe con los valores ya ajustados
-     return dataframe
+    return dataframe
 
 # 9) Redondear valores numéricos en columnas específicas
 def redondear_valores():
