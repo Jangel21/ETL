@@ -1,7 +1,7 @@
 from colorama import init, Fore  #pip install colorama
 import pandas as pd #pip install pandas
 import os 
-from ETL import sustituir_valores,convertir_tipo_dato, convertir_fechas, total_personas, ajustar_valores
+from ETL import sustituir_valores,convertir_tipo_dato, convertir_fechas, total_personas, ajustar_valores, eliminar_duplicados
 
 
 # pip install openpyxl para poder abrir archivo xlsx
@@ -73,7 +73,7 @@ def limpieza_transformacion(df):
         print(f"{Fore.GREEN}8) Ajustar valores min y max")
         print(f"{Fore.GREEN}9) Función 9")
         print(f"{Fore.GREEN}10) Función 10")
-        print(f"{Fore.GREEN}11) Función 11")
+        print(f"{Fore.GREEN}11) Eliminar registros duplicados")
         print(f"{Fore.GREEN}12) Función 12")
         print(f"{Fore.GREEN}13) Salir")
         opcion = input("\nSeleccione una opción: ")
@@ -153,7 +153,11 @@ def limpieza_transformacion(df):
             print("Función 10")
 
         elif opcion == "11":
-            print("Función 11")     
+            try:
+                df = eliminar_duplicados(df)  # Llamamos a la función
+                print(f"{Fore.GREEN}\nTERMINADO :) \n")
+            except Exception as e:
+             print(f"{Fore.RED}\nError: {e}\n")   
 
         elif opcion == "12":
             print("Función 12")

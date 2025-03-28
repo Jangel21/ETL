@@ -71,7 +71,7 @@ def total_personas(df):
         print("\nSe ha agregado la columna 'total_people' correctamente.\n")
 
     except Exception as e:
-        print("\nError al calcular total de personas: {e}\n")
+        print(f"\nError al calcular total de personas: {e}\n")
 
     #Se regresa el nuevo dataframe con la nueva columna  
     return df
@@ -84,7 +84,7 @@ def ajustar_valores(dataframe, column, min_value, max_value):
             lambda x: min(max(x, min_value), max_value)
         )
     except Exception as e:
-        print("\nError al ajustar valores: {e}\n")
+        print(f"\nError al ajustar valores: {e}\n")
      #Se retorna el dataframe con los valores ya ajustados
     return dataframe
 
@@ -98,20 +98,16 @@ def analizar_reservaciones():
 
 # 11) Identificar y eliminar registros duplicados
 def eliminar_duplicados(original_dataframe):
+    try:        
+        #Se eliminan los registros duplicados
+        filter_dataframe = original_dataframe.drop_duplicates()
+
+        print(f"\nSe han eliminado {len(original_dataframe) - len(filter_dataframe)} registros duplicados.\n")
+        # Se retornan tanto el dataframe original como el ya filtrado 
+        return filter_dataframe
     
-    #Se eliminan los registros duplicados
-    filter_dataframe = original_dataframe.drop_duplicates()
-
-    #Se mezclan el dataframe original y el ya filtrado, posteriormente solo se conservan los duplicados 
-    eliminated_registers = pd.merge(
-        original_dataframe,
-        filter_dataframe,
-        how='outer',
-        indicator=True
-    ).query('_merge == "left_only"').drop(columns=['_merge'])
-
-    # Se retornan tanto el dataframe original como el ya filtrado 
-    return filter_dataframe, eliminated_registers
+    except Exception as e:
+        print(f"\nError al eliminar duplicados: {e}\n")
 
 # 12) Calcular acumulados de ingresos por mes
 def ingresos_por_mes():
