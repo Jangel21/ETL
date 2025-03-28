@@ -1,5 +1,11 @@
 from colorama import init, Fore  #pip install colorama
+import pandas as pd #pip install pandas
+import os 
 import ETL
+
+
+# pip install openpyxl para poder abrir archivo xlsx
+
 
 init(autoreset=True) # Inicializar colorama 
 
@@ -11,7 +17,46 @@ def mostrar_menu(): # Opciones básicas del menú
     print(f"{Fore.GREEN}4) Salir")
 
 def cargar_datos(): # Cargar los datos del dataset
-    print("\nDatos cargados correctamente\n")
+    global df #definimos df cómo global para que podamos usar df en las otras funciones
+    while True:
+        print(f"{Fore.LIGHTBLUE_EX}\nEn qué formato se encuentra el archivo? (CSV, EXCEL o JSON)\n")
+        print(f"{Fore.GREEN}1) CSV")
+        print(f"{Fore.GREEN}2) EXCEL")
+        print(f"{Fore.GREEN}3) JSON")
+        print(f"{Fore.GREEN}4) Atrás")
+        opcion = input("\nSeleccione una opción: ")
+
+        if opcion == "1":
+            archivo = input("Ingrese el nombre del archivo (tambien incluya la entensión .csv): ")
+            ruta = r'C:\Users\Citlali Hermosillo\OneDrive\Escritorio\6° Semestre\Almacenes de Datos\ETL\ETL\datasets' + '\\' + archivo  #Cambiar la ruta
+            try:
+                df = pd.read_csv(ruta)  # Se carga el archivo CSV
+                print(f"{Fore.YELLOW}\nDatos cargados correctamente :)\n")
+                print(df.head(3))  # Muestra las primeras filas para verificar
+            except Exception as e:
+                print(f"{Fore.RED}Error al cargar: {e}")
+        elif opcion == "2":
+            archivo = input("Ingrese el nombre del archivo (tambien incluya la entensión .xlsx): ")
+            ruta = r'C:\Users\Citlali Hermosillo\OneDrive\Escritorio\6° Semestre\Almacenes de Datos\ETL\ETL\datasets' + '\\' + archivo  #Cambiar la ruta
+            try:
+                df = pd.read_excel(ruta)  # Se carga el archivo Excel
+                print(f"{Fore.YELLOW}\nDatos cargados correctamente :)\n")
+                print(df.head(3))  # Muestra las primeras filas para verificar
+            except Exception as e:
+                print(f"{Fore.RED}Error al cargar: {e}")
+        elif opcion == "3":
+            archivo = input("Ingrese el nombre del archivo (tambien incluya la entensión .json): ")
+            ruta = r'C:\Users\Citlali Hermosillo\OneDrive\Escritorio\6° Semestre\Almacenes de Datos\ETL\ETL\datasets' + '\\' + archivo  #Cambiar la ruta
+            try:
+                df = pd.read_json(ruta)  # Se carga el archivo JSON
+                print(f"{Fore.YELLOW}\nDatos cargados correctamente :)\n")
+                print(df.head(3))  # Muestra las primeras filas para verificar
+            except Exception as e:
+                print(f"{Fore.RED}Error al cargar: {e}")
+        elif opcion == "4":
+            break  # Se finaliza la ejecución
+        else:
+            print(f"{Fore.RED}\nLa opción seleccionada es inválida, inténtelo de nuevo :(")
 
 def limpieza_transformacion():
     while True:
