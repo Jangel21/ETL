@@ -1,35 +1,35 @@
 from colorama import init, Fore  #pip install colorama
 import ETL
 
-init() # Inicializar colorama
+init(autoreset=True) # Inicializar colorama 
 
 def mostrar_menu(): # Opciones básicas del menú
-    print("\nSYSTEMA ETL")
-    print("1) Cargar datos")
-    print("2) Aplicar limpieza y transformación")
-    print("3) Guardar datos")
-    print("4) Salir")
+    print(f"{Fore.YELLOW}\n   SYSTEMA ETL\n")
+    print(f"{Fore.GREEN}1) Cargar datos")
+    print(f"{Fore.GREEN}2) Aplicar limpieza y transformación")
+    print(f"{Fore.GREEN}3) Guardar datos")
+    print(f"{Fore.GREEN}4) Salir")
 
 def cargar_datos(): # Cargar los datos del dataset
-    print("Datos cargados correctamente")
+    print("\nDatos cargados correctamente\n")
 
 def limpieza_transformacion():
     while True:
-        print("\nQue desea hacer?")  # Lo de "Función X" se va a modificar 
-        print("1) Función 1")
-        print("2) Función 2")
-        print("3) Función 3")
-        print("4) Función 4")
-        print("5) Función 5")
-        print("6) Función 6")
-        print("7) Función 7")
-        print("8) Función 8")
-        print("9) Función 9")
-        print("10) Función 10")
-        print("11) Función 11")
-        print("12) Función 12")
-        print("13) Salir")
-        opcion = input("Seleccione una opción: ")
+        print(f"{Fore.LIGHTBLUE_EX}\nQue desea hacer?\n")  # Lo de "Función X" se va a modificar 
+        print(f"{Fore.GREEN}1) Función 1")
+        print(f"{Fore.GREEN}2) Función 2")
+        print(f"{Fore.GREEN}3) Función 3")
+        print(f"{Fore.GREEN}4) Función 4")
+        print(f"{Fore.GREEN}5) Función 5")
+        print(f"{Fore.GREEN}6) Función 6")
+        print(f"{Fore.GREEN}7) Función 7")
+        print(f"{Fore.GREEN}8) Función 8")
+        print(f"{Fore.GREEN}9) Función 9")
+        print(f"{Fore.GREEN}10) Función 10")
+        print(f"{Fore.GREEN}11) Función 11")
+        print(f"{Fore.GREEN}12) Función 12")
+        print(f"{Fore.GREEN}13) Salir")
+        opcion = input("\nSeleccione una opción: ")
 
         if opcion == "1":
             print("Función 1")  # Lo de "Función X" se va a modificar 
@@ -58,32 +58,32 @@ def limpieza_transformacion():
         elif opcion == "13":
             break  # Se finaliza la ejecución
         else:
-            print("\nLa opción seleccionada es inválida, inténtelo de nuevo :(")
+            print(f"{Fore.RED}\nLa opción seleccionada es inválida, inténtelo de nuevo :(\n")
 
 def guardar_datos(): # Guardar las modificaciones en el formato deseado
     while True:
-        print("\nEn qué formato desearía guardar los cambios? (CSV, EXCEL o JSON)")
-        print("1) CSV")
-        print("2) EXCEL")
-        print("3) JSON")
-        print("4) Salir")
-        opcion = input("Seleccione una opción: ")
+        print(f"{Fore.LIGHTBLUE_EX}\nEn qué formato desearía guardar los cambios? (CSV, EXCEL o JSON)\n")
+        print(f"{Fore.GREEN}1) CSV")
+        print(f"{Fore.GREEN}2) EXCEL")
+        print(f"{Fore.GREEN}3) JSON")
+        print(f"{Fore.GREEN}4) Salir")
+        opcion = input("\nSeleccione una opción: ")
 
         if opcion == "1":
-            print("Función para guardar en CSV")
+            print("\nFunción para guardar en CSV")
         elif opcion == "2":
-            print("Función para guardar en EXCEL")     
+            print("\nFunción para guardar en EXCEL")     
         elif opcion == "3":
-            print("Función para guardar en JSON")
+            print("\nFunción para guardar en JSON")
         elif opcion == "4":
             break  # Se finaliza la ejecución
         else:
-            print("\nLa opción seleccionada es inválida, inténtelo de nuevo :(")
+            print(f"{Fore.RED}\nLa opción seleccionada es inválida, inténtelo de nuevo :(")
 
 def main():
     while True:
         mostrar_menu()
-        opcion = input("Seleccione una opción: ")
+        opcion = input("\nSeleccione una opción: ")
 
         if opcion == "1":
             cargar_datos()
@@ -92,10 +92,10 @@ def main():
         elif opcion == "3":
             guardar_datos()
         elif opcion == "4":
-            print("\nHasta la proxima :D")
+            print(f"{Fore.LIGHTMAGENTA_EX}\nHasta la proxima :D\n")
             break  # Se finaliza la ejecución
         else:
-            print("\nLa opción seleccionada es inválida, inténtelo de nuevo :(")
+            print(f"{Fore.RED}\nLa opción seleccionada es inválida, inténtelo de nuevo :(")
 
 if __name__ == "__main__":
     main()
