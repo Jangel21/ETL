@@ -2,6 +2,7 @@ from colorama import init, Fore
 import pandas as pd 
 from ETL import eliminar_filas, sustituir_valores, convertir_tipo_dato, convertir_fechas, reemplazar_nulos, agrupar_y_calcular, eliminar_anomalias, ajustar_valores, redondear_valores, ordenar_por_columna, eliminar_duplicados, limpiar_telefonos 
 
+
 # Requisitos para el funcionamiento del código
 # pip install pandas
 # pip install colorama
@@ -163,6 +164,7 @@ def limpieza_transformacion(df):
                 print(resultado)
 
         elif opcion == "7":
+
             df = eliminar_anomalias(df)
             print(f"{Fore.GREEN}\nTERMINADO :) \n")
 

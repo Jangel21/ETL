@@ -90,7 +90,6 @@ def reemplazar_nulos(df, columna, valor_reemplazo):
         print(f"Error al reemplazar valores nulos: {e}")
     return df
 
-
 # 6) Agrupar datos y calcular estadísticas
 def agrupar_y_calcular(df, columna_grupo, columna_calculo, operacion="suma"):
     try:
@@ -135,7 +134,6 @@ def agrupar_y_calcular(df, columna_grupo, columna_calculo, operacion="suma"):
         return None
 
 
-# 7) Busca las anomalias en el dataset y las elimina
 def eliminar_anomalias(df):
      try:
          # Calcular los cuartiles y el rango intercuartílico (IQR)
@@ -153,6 +151,7 @@ def eliminar_anomalias(df):
      except Exception as e:
          print("\nError al eliminar las anomalias {e}\n")
      return df_cleaned
+
      
 
 # 8) Ajustar valores atípicos dentro de un rango permitido
