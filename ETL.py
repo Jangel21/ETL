@@ -90,7 +90,6 @@ def reemplazar_nulos(df, columna, valor_reemplazo):
         print(f"Error al reemplazar valores nulos: {e}")
     return df
 
-
 # 6) Agrupar datos y calcular estadísticas
 def agrupar_y_calcular(df, columna_grupo, columna_calculo, operacion="suma"):
     try:
@@ -135,25 +134,31 @@ def agrupar_y_calcular(df, columna_grupo, columna_calculo, operacion="suma"):
         return None
 
 
-# 7) Crear una nueva columna basada en operaciones con otras columnas
-def total_personas(df):
+def eliminar_anomalias(df):
      try:
-         # Se suman todas las personas que estuvieron en la habitación, si es nulo se convierte en 0
-         df["total_people"] = df["adults"].fillna(0) + df["children"].fillna(0) + df["babies"].fillna(0)
-         print("\nSe ha agregado la columna 'total_people' correctamente.\n")
+         # Calcular los cuartiles y el rango intercuartílico (IQR)
+        Q1 = df.quantile(0.25)  # Primer cuartil (25%)
+        Q3 = df.quantile(0.75)  # Tercer cuartil (75%)
+        IQR = Q3 - Q1           # Rango intercuartílico
+
+        # Definir límites para detectar anomalías
+        lower_bound = Q1 - 1.5 * IQR
+        upper_bound = Q3 + 1.5 * IQR
+
+        # Identificar anomalías
+        df_cleaned = df[~((df < lower_bound) | (df > upper_bound)).any(axis=1)]
  
      except Exception as e:
-         print("\nError al calcular total de personas: {e}\n")
-     return df
+         print("\nError al eliminar las anomalias {e}\n")
+     return df_cleaned
+
      
 
 # 8) Ajustar valores atípicos dentro de un rango permitido
 def ajustar_valores(df, column, min_value, max_value):
     try:
-        #Con una expresion lambda compara que cada valor se encuentre dentro del rango deseado
-        df[column] = df[column].apply(
-            lambda x: min(max(x, min_value), max_value)
-        )
+        #Se utiliza la funcion clip para normalizar los valores dentro de un rango
+        df[column].clip(min_value, max_value)
     except Exception as e:
         print("\nError al ajustar valores: {e}\n")
      #Se retorna el df con los valores ya ajustados
