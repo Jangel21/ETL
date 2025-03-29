@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import re
 
 # 1) Función para eliminar filas con valores nulos en ciertas columnas
@@ -133,24 +134,34 @@ def agrupar_y_calcular(df, columna_grupo, columna_calculo, operacion="suma"):
         print(f"Error al agrupar y calcular: {e}")
         return None
 
-
-def eliminar_anomalias(df):
-     try:
-         # Calcular los cuartiles y el rango intercuartílico (IQR)
-        Q1 = df.quantile(0.25)  # Primer cuartil (25%)
-        Q3 = df.quantile(0.75)  # Tercer cuartil (75%)
-        IQR = Q3 - Q1           # Rango intercuartílico
+# 7) Eliminar anomalias en una columna especifica
+def eliminar_anomalias(df, columna):
+   
+    try:
+        # Verificar si la columna existe en el DataFrame
+        if columna not in df.columns:
+            raise ValueError(f"La columna '{columna}' no está en el DataFrame.")
+        
+        # Verificar si la columna es numérica
+        if not np.issubdtype(df[columna].dtype, np.number):
+            raise TypeError(f"La columna '{columna}' no es numérica.")
+        
+        # Calcular los cuartiles y el rango intercuartílico (IQR) para la columna
+        Q1 = df[columna].quantile(0.25)  # Primer cuartil (25%)
+        Q3 = df[columna].quantile(0.75)  # Tercer cuartil (75%)
+        IQR = Q3 - Q1  # Rango intercuartílico
 
         # Definir límites para detectar anomalías
         lower_bound = Q1 - 1.5 * IQR
         upper_bound = Q3 + 1.5 * IQR
 
-        # Identificar anomalías
-        df_cleaned = df[~((df < lower_bound) | (df > upper_bound)).any(axis=1)]
- 
-     except Exception as e:
-         print("\nError al eliminar las anomalias {e}\n")
-     return df_cleaned
+        # Filtrar el DataFrame para eliminar las anomalías en la columna específica
+        df_cleaned = df[(df[columna] >= lower_bound) & (df[columna] <= upper_bound)]
+        return df_cleaned
+
+    except Exception as e:
+        print(f"\nError al eliminar las anomalías: {e}\n")
+        return df  # Retorna el DataFrame original si hay un error
 
      
 

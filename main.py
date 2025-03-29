@@ -32,7 +32,7 @@ def cargar_datos(): # Cargar los datos del dataset
 
         if opcion == "1":
             archivo = input("Ingrese el nombre del archivo (tambien incluya la entensión .csv): ")
-            ruta = r'C:\Users\Josan\ETL\ETL\datasets' + '\\' + archivo + '.csv' #Cambiar la ruta
+            ruta = 'datasets/'+ archivo + '.csv' #Cambiar la ruta
             try:
                 df = pd.read_csv(ruta)  # Se carga el archivo CSV
                 print(f"{Fore.YELLOW}\nDatos cargados correctamente :)\n")
@@ -44,7 +44,7 @@ def cargar_datos(): # Cargar los datos del dataset
         
         elif opcion == "2":
             archivo = input("Ingrese el nombre del archivo (tambien incluya la entensión .xlsx): ")
-            ruta = r'C:\Users\Josan\ETL\ETL\datasets' + '\\' + archivo + '.xlsx' #Cambiar la ruta
+            ruta = 'datasets/'+ archivo + '.xlsx' #Cambiar la ruta
             try:
                 df = pd.read_excel(ruta)  # Se carga el archivo Excel
                 print(f"{Fore.YELLOW}\nDatos cargados correctamente :)\n")
@@ -56,7 +56,7 @@ def cargar_datos(): # Cargar los datos del dataset
         
         elif opcion == "3":
             archivo = input("Ingrese el nombre del archivo (tambien incluya la entensión .json): ")
-            ruta = r'C:\Users\Josan\ETL\ETL\datasets' + '\\' + archivo  + '.json'#Cambiar la ruta
+            ruta = 'datasets/'+ archivo + '.csv' #Cambiar la ruta
             try:
                 df = pd.read_json(ruta)  # Se carga el archivo JSON
                 df = pd.json_normalize(df["data"])  # Si los datos están bajo una clave "data"
@@ -83,7 +83,7 @@ def limpieza_transformacion(df):
         print(f"{Fore.GREEN} 4) Convertir fechas")
         print(f"{Fore.GREEN} 5) Remplazar valores nulos")
         print(f"{Fore.GREEN} 6) Agrupar y calcular")
-        print(f"{Fore.GREEN} 7) Calcular total de personas")
+        print(f"{Fore.GREEN} 7) Eliminar Anomalias")
         print(f"{Fore.GREEN} 8) Ajustar valores min y max")
         print(f"{Fore.GREEN} 9) Redondear valores numéricos")
         print(f"{Fore.GREEN}10) Ordenar por columnas")
@@ -164,12 +164,14 @@ def limpieza_transformacion(df):
                 print(resultado)
 
         elif opcion == "7":
+            print(f"{Fore.YELLOW}Columnas disponibles: {list(df.columns)}")
+            columna = input(f"{Fore.YELLOW}Ingrese la columna que desee eliminar anomalias: ").strip()
 
-            df = eliminar_anomalias(df)
+            df = eliminar_anomalias(df, columna)
             print(f"{Fore.GREEN}\nTERMINADO :) \n")
 
             print(f"{Fore.GREEN}\n RESULTADO: \n")
-            print(df)
+            print(df[columna])
 
         elif opcion == "8":
             try:
@@ -283,7 +285,10 @@ def main():
 
         elif opcion == "2":
             # Actualiza el DataFrame global después de aplicar transformaciones
-            df = limpieza_transformacion(df)
+            try:
+                df = limpieza_transformacion(df)
+            except Exception:
+                print(f"{Fore.RED}\n No se ha econtrado datos cargados para la limpieza :(")
 
         elif opcion == "3":
             guardar_datos()
